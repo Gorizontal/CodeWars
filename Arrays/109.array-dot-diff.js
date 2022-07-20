@@ -8,12 +8,9 @@
 // arrayDiff([1,2,2,2,3],[2]) == [1,3]
 
 function arrayDiff(a, b) {
-  return a.filter(number =>! b.includes(number))
+  return a.filter(number => !b.includes(number))
 
 }
 
 console.log(arrayDiff([8,7,4],[8,7,4,6]))
 
-
-let a = [2];
-console.log(a.length)
