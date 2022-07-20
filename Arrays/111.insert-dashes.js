@@ -11,7 +11,6 @@ for ( let i =0; i < a.length; i++){
     if( a[i]%2 !=0 && a[i+1]%2 !=0 ){
         newArr.push(a[i]);
         newArr.push('-');
-
     } else {
         newArr.push(a[i])}  
 } 
