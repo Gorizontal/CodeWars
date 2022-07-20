@@ -15,6 +15,7 @@ for ( let i =0; i < a.length; i++){
     } else {
         newArr.push(a[i])}  
 } 
+
 if(newArr[newArr.length-1] == '-'){newArr.pop()}
 return newArr.join('')
  }
