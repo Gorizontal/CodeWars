@@ -14,7 +14,7 @@
 
 function filterHomogenous(arrays) {
  return arrays.filter(arr => {
-    return arr.every((elem) => (typeof(elem) == typeof(arr[0])))  && arr.length
+    return arr.every((elem) => (typeof(elem) == typeof(arr[0])))  && arr.length !== 0
  });
 }
 
