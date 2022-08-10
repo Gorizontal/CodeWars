@@ -1,10 +1,10 @@
 function duplicateEncode(word){
     return word.toUpperCase().split('').map((elem,index, arr) => {
-        return arr.lastIndexOf(elem) == arr.lastIndexOf(elem) ? '(' : ')'
+        return arr.indexOf(elem) == arr.lastIndexOf(elem) ? '(' : ')'
         }).join('')
     
     }
 
 
 
-console.log(duplicateEncode("Dind"))
+console.log(duplicateEncode('1231'))
