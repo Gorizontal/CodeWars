@@ -8,9 +8,3 @@ function hexStringToRGB(hexString)
 }
 
 console.log(hexStringToRGB("#FF9933"))   
-
- let arr = [1,2,3]
-
- let [start, mid, end] = arr
-
- console.log(mid)

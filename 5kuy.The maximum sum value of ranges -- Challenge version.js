@@ -14,6 +14,10 @@
 // Список rangesникогда не будет пустым;
 // Это версия вызова, вы должны реализовать эффективный алгоритм, чтобы избежать тайм-аута;
 
+// решение с https://www.youtube.com/watch?v=JrMv30JTUxA&t=790s
+
+
+
 function maxSum(arr,range){
     const sumOn = [];
     for(let i=0; i < arr.length; i ++){
