@@ -22,6 +22,8 @@ function anagrams(word, words) {
 
 console.log(anagrams('abba', ['aabb', 'abcd', 'bbaa', 'dada']))
 
+
+
 let arr = [1,1,2,2,3,3,4,4,5,6,1]
 let arr_2 = arr.filter((item, index) => {
     console.log(arr.indexOf(item))
